@@ -1,0 +1,155 @@
+/* global */
+img{ display: block;
+width: 90%;
+margin: 0 auto;}
+
+body{ background-color: rgb(234, 240, 255);
+}
+
+/* Global end */
+
+/* mobile */
+body{ background-color: rgb(234, 240, 255);
+}
+
+#container{
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid rgb(6, 7, 7);  
+    width: 70%;
+
+}
+
+.column{
+float: left;
+width: 50%;
+text-align: center;
+text-size-adjust: 20em;
+}
+
+header{
+    background-color: rgb(49, 140, 243);
+    padding: 30px;
+}
+
+header h1{
+    font-size: 10em;
+    text-align: center;
+}
+
+header h2{
+    font-size: 6em;
+    color: rgb(185, 185, 1);
+}
+
+nav{
+    background-color: rgb(255, 247, 247);
+    color: black;
+    text-align: center;
+}
+
+nav ul{
+padding: 0;
+list-style-type: none;
+}
+
+nav li{
+    display: block;
+}
+
+nav li a{
+    display: block;
+    background-color:rgb(2, 51, 184);
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+nav la a:hover{
+    background-color: rgb(185, 185, 1);
+}
+
+main{
+    background-color:rgb(255, 250, 250);
+    color: rgb(19, 20, 20);
+    padding: 10px;
+    align-items: center;
+    font-size: larger;
+    line-height: 1.8;
+}
+ /* Mobile End */
+
+ /* tablet */
+ @media(min-width: 768px) {
+
+    header{
+        padding: 60px;
+    }
+    
+    header h1{
+        font-size: 3em;
+    }
+    
+    nav li{
+        display: inline-block;
+    }
+    
+    nav li a{
+        width: 200px;
+    }
+    main{
+        display: flex;
+    }
+    
+    main img{ width: 90%;}
+    
+    section, aside{
+        padding: 20px;
+        margin: 20px;
+        width: 50%;
+    }
+    
+    }
+ /* Tablet End */
+
+ /* desktop */
+ @media (min-width: 1024px) {
+    #container{ 
+       display: block;
+       width: 50%;
+       margin: 0 auto;
+       align-items: center;
+    }
+   
+    nav{
+       padding: 5px 0;
+       border-top: 2px solid black;
+       border-bottom: 2px solid black;
+    }
+     nav li a{
+       background-color:rgb(40, 133, 240);
+       color: black;
+     }
+   
+     nav la a:hover {
+       background-color: rgb(196, 166, 0);
+       color: white;
+    }
+   
+    section{
+       width: 70%;
+    }
+   
+    aside{
+        width: 30%;
+     }
+   
+    footer{
+       border-top: 5px solid black;
+    }
+   }
+ /* desktop end */
