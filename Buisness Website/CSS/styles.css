@@ -1,7 +1,23 @@
 /* global */
-img{ display: block;
-width: 90%;
-margin: 0 auto;}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+
+.img2{
+width: 400px;
+height: 400px;
+margin-left: 20px;
+}
+
+.img3{
+align-self: center;
+margin: auto;
+}
 
 body{ background-color: rgb(234, 240, 255);
 }
@@ -17,15 +33,22 @@ body{ background-color: rgb(234, 240, 255);
     padding: 5px;
     margin: 10px;
     border: 5px solid rgb(6, 7, 7);  
-    width: 70%;
+    width: 90%;
+
+}
+
+#center{
+    display: block;
+    width: 100px;
+    height: 100px;
 
 }
 
 .column{
-float: left;
-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 text-align: center;
-text-size-adjust: 20em;
+font-size: 130%;
 }
 
 header{
@@ -80,6 +103,16 @@ main{
     align-items: center;
     font-size: larger;
     line-height: 1.8;
+}
+
+.text{
+font-size: 130%;
+text-align: center;
+}
+
+.text2{
+    text-align: left;
+    font-size: 200%;
 }
  /* Mobile End */
 
@@ -149,7 +182,10 @@ main{
      }
    
     footer{
-       border-top: 5px solid black;
+       border-top: 40px solid rgb(48, 165, 243);
+       display: block;
+       align-self: center;
+       padding: 50px;
     }
    }
  /* desktop end */
