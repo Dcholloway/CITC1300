@@ -4,7 +4,9 @@ body {
   min-height: calc(100vh - 402.06px);
 }
 
-.card {display:inline-block;}
+.card {display:inline-block;
+  margin-bottom: 10px;
+}
 
 #container{
   background-color: black;
@@ -44,18 +46,33 @@ footer {
   margin-right: auto;
   width: 50%;
 }
-html, body {
+ body {
   height: 100%;
-  margin:100px;
+  margin:0;
   padding: 20px;
+  align-items: center;
 }
 
 img {
-  width: 200px; /* You can set the dimensions to whatever you want */
-  height: 200px;
-  object-fit: cover;
+
+  object-fit: contain;
 }
 
+.carousel {
+  background: #ccc;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner img {
+ 
+ object-fit: fill;
+}
+
+.text {
+  font-size: large;
+}
 .container2 {
   text-align: center;
   color: red;
