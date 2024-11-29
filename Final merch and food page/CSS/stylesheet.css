@@ -1,0 +1,65 @@
+#header_img {
+    background-image: url(../Images/modern-gastronomic-background-z13r630gqpmwq4wj.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    #container2 {
+        text-align: left;
+    }
+    
+    #header {
+        width: 30%;
+    }
+    
+    body {
+        background-color: black;
+        color: white;
+        min-height: calc(100vh - 402.06px);
+    
+        font-size: 150%;
+    }
+    
+    main {
+    min-height: calc(100vh - 402.06px);
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: yellow;
+        color: black;
+        text-align: center;
+      }
+    
+    .inline {
+        max-width: 200px;
+        max-height: 300px;
+        float: left;   
+    }
+    
+    .text {
+       font-size: 130%;
+       text-align: center;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    img {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
