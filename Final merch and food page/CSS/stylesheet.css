@@ -9,14 +9,17 @@
     }
     
     #header {
-        width: 30%;
+        width: 40%;
     }
     
     body {
-        background-color: black;
+        background-color: rgb(238, 196, 7);
         color: white;
         min-height: calc(100vh - 402.06px);
-    
+    background-image: url(../Images/backround5.jpg);
+    background-size: 1290px 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
         font-size: 150%;
     }
     
