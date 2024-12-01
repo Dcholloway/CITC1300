@@ -17,7 +17,7 @@
     }
 
     body {
-        background-color: #edb51c;
+        background-color: #0a0a08;
         background-image: linear-gradient(red, yellow);
         color: white;
         min-height: calc(100vh - 402.06px);
@@ -44,7 +44,7 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: yellow;
+        background-color: rgb(173, 43, 3);
         color: black;
         text-align: center;
       }
@@ -79,13 +79,3 @@
         max-height: 400px;
         max-width: 100%;
     }
-
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: yellow;
-        color: black;
-        text-align: center;
-      }
