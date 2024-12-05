@@ -8,6 +8,11 @@
         text-align: center;
     }
 
+    p {
+      margin-right: 150px;
+      margin-left: 80px;
+    }
+
     #container{
         text-align: center;
     }
