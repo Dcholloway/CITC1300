@@ -1,5 +1,5 @@
 #header_img {
-    background-image: url(../Images/chalk.avif);
+    background-image: url(../images/chalk.avif);
     background-size: cover;
     background-position: center;
     }
@@ -26,7 +26,7 @@
         background-image: linear-gradient(red, yellow);
         color: white;
         min-height: calc(100vh - 402.06px);
-    background-image: url(../Images/modern-gastronomic-background-z13r630gqpmwq4wj.jpg);
+    background-image: url(../images/modern-gastronomic-background-z13r630gqpmwq4wj.jpg);
     background-size: 1290px 2000px;
     background-repeat: no-repeat;
     background-position: center;
